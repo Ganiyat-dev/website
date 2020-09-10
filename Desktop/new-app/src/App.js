@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Contacts from "./components/Contact";
+import Contacts from "./components/Contacts";
 import Header from "./components/Header";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 
 // function App() {
 //   return <div className="App"></div>;
@@ -13,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header branding="Contact Manager" />
-        <div>
+        <div className="container">
           <Contacts />
         </div>
       </div>
